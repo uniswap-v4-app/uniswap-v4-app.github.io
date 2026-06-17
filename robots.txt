@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://uniswap-v4-app.github.io/sitemap.xml

@@ -1,0 +1,107 @@
+{
+ "keyword": "uniswap",
+ "h1": "Uniswap",
+ "brand": "Uniswap",
+ "niche": "swap",
+ "verb": "Swap",
+ "title": "Uniswap - Open App",
+ "meta_description": "uniswap routes you to the official app for wallet-based token swaps, quote review, and onchain execution.",
+ "palette": {
+  "mode": "dark",
+  "bg": "#0D0E12",
+  "accent": "#FF007A",
+  "ink": "#FFFFFF"
+ },
+ "hero_h2": "Swap tokens directly from your wallet",
+ "hero_lead": "Uniswap connects your wallet to an onchain exchange interface for quoting token routes, reviewing price impact, and submitting swaps through the official app.",
+ "badge": "DEX",
+ "widget": {
+  "from": "ETH",
+  "from_net": "Ethereum",
+  "to": "USDC",
+  "to_net": "Ethereum",
+  "action": "Open Uniswap App"
+ },
+ "trust": [
+  "Non-custodial swaps",
+  "AMM liquidity pools",
+  "Multi-network deployments"
+ ],
+ "what_is": "Uniswap is a suite of onchain protocols for decentralized token exchange, with automated market maker contracts that hold liquidity and execute swaps. The official <a href='https://developers.uniswap.org/docs/protocols/overview'>developer documentation</a> covers protocol versions, routing, and related infrastructure.",
+ "how": [
+  {
+   "t": "Open the app",
+   "d": "Use the launch button to go to app.uniswap.org, then verify the domain before connecting a wallet."
+  },
+  {
+   "t": "Connect wallet",
+   "d": "Select a supported wallet and network; never enter a seed phrase into any website."
+  },
+  {
+   "t": "Set the swap",
+   "d": "Choose input and output tokens, enter an amount, and review the quoted route, slippage, and price impact."
+  },
+  {
+   "t": "Confirm onchain",
+   "d": "Approve tokens only when needed, then sign the swap transaction from your wallet."
+  }
+ ],
+ "points": [
+  {
+   "h": "Wallet-first execution",
+   "p": "You keep custody while your wallet handles approvals and final transaction signing."
+  },
+  {
+   "h": "Routing built for swaps",
+   "p": "The interface can route across supported protocol paths; developers can review integration options in the <a href='https://developers.uniswap.org/docs/trading/overview'>trading documentation</a>."
+  },
+  {
+   "h": "Ethereum-native context",
+   "p": "Swaps use smart contracts and onchain settlement; <a href='https://ethereum.org/en/developers/docs/dapps/'>ethereum.org</a> explains how dapps connect wallets to contracts."
+  }
+ ],
+ "eeat": [
+  {
+   "text": "Uniswap protocol documentation",
+   "url": "https://developers.uniswap.org/docs/protocols/overview"
+  },
+  {
+   "text": "Ethereum dapp documentation",
+   "url": "https://ethereum.org/en/developers/docs/dapps/"
+  },
+  {
+   "text": "Etherscan contract explorer",
+   "url": "https://etherscan.io/address/0x000000000004444c5dc75cB358380D2e3dE08A90"
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is uniswap used for?",
+   "a": "It is used to swap crypto tokens through onchain liquidity pools and routing while the connected wallet signs transactions.",
+   "open": true
+  },
+  {
+   "q": "Is uniswap the official app?",
+   "a": "The official action URL is <a href='https://app.uniswap.org/'>app.uniswap.org</a>; this page is a routing and education page, not the app itself.",
+   "open": false
+  },
+  {
+   "q": "Does uniswap custody my tokens?",
+   "a": "No. The interface connects to your wallet; approvals and swaps are transactions you review and sign from that wallet.",
+   "open": false
+  },
+  {
+   "q": "Which networks does uniswap support?",
+   "a": "The <a href='https://developers.uniswap.org/docs/protocols/v4/deployments'>v4 deployments</a> page lists current contract addresses by network, including Ethereum and multiple L2 or EVM networks.",
+   "open": false
+  },
+  {
+   "q": "How do I verify uniswap contracts?",
+   "a": "Use official deployment docs for mapping and compare Ethereum mainnet addresses on <a href='https://etherscan.io/address/0x000000000004444c5dc75cB358380D2e3dE08A90'>Etherscan</a> before interacting directly with contracts.",
+   "open": false
+  }
+ ],
+ "official_url": "https://app.uniswap.org/",
+ "official_domain": "app.uniswap.org",
+ "footer_note": "Not the official app; verify app.uniswap.org before connecting. Educational content only, not financial advice."
+}
